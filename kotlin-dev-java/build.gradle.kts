@@ -13,6 +13,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation ("org.junit.jupiter:junit-jupiter:5.9.0")
+    testImplementation ("org.amshove.kluent:kluent:1.68")
 }
 
 tasks.test {
